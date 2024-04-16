@@ -56,7 +56,7 @@ button {
     list-style-type: none;
     font-size: 10px;
     font-weight: lighter;
-    margin: 8px 0;
+    margin: 12px 0;
 }
 
 h2 {
@@ -89,13 +89,33 @@ h2 {
 }
 
 .tag {
-    background-color: blue;
+    background-color: #09A9ED;
     border-radius: 16px;
     padding: 5px 8px;
-    font-size: 5px;
+    font-size: 7px;
     color: white;
 }
 
 li {
-    margin: 8px 0;
+    margin: 10px 0;
+}
+
+.Q1-goals {
+    background-color: #AB5DE6;
+}
+
+.recruiting {
+    background-color: #2CC6AB;
+}
+
+.mobile {
+    background-color: #FF9B00;
+}
+
+.website {
+    background-color: #EC479D;
+}
+
+.sales {
+    background-color: #A3D116;
 }

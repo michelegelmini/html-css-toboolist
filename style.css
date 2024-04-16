@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #F6F8F9;
+}
+
+/* HEADER */
+
+header {
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 5px;
+}
+
+.logo {
+    height: 30px;
+}
+
+/* COMMON */
+
+.container {
+    background-color: white;
+    max-width: 70%;
+    margin: auto;
+    padding: 10px;
+    border-bottom: 1px solid #F6F8F9;
+    padding-left: 24px;
+}
+
+/* BUTTONS */
+
+#buttons {
+    border-radius: 4px 4px 0 0;
+}
+
+button {
+    padding: 3px 5px;
+    font-size: 9px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.selected {
+    background-color: #14AAF5;
+}
+
+/* TODO-LIST */
+
+.todo-list-container ul {
+    list-style-type: none;
+    font-size: 10px;
+    font-weight: lighter;
+    margin: 8px 0;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.icon {
+    padding: 4px;
+    font-size: 6px;
+    display: inline-block;
+    border: 1px solid black;
+    line-height: 5px;
+    border-radius: 50%;
+}
+
+.arrow {
+    border: none;
+}
+
+.success {
+    border: 1px solid green;
+    color: green;
+}
+
+
+.error {
+    border: 1px solid red;
+    color: red;
+}
+
+.tag {
+    background-color: blue;
+    border-radius: 16px;
+    padding: 5px 8px;
+    font-size: 5px;
+    color: white;
+}
+
+li {
+    margin: 8px 0;
+}
